@@ -1,25 +1,16 @@
-plugins {
-    id 'com.android.application'
-}
+plugins { id 'com.android.application' }
 
 android {
     namespace 'com.security.update'
-    compileSdk 33
-    
+    compileSdk 34
     defaultConfig {
         applicationId "com.security.update"
         minSdk 26
-        targetSdk 33
+        targetSdk 34
         versionCode 1
         versionName "26.5.2"
     }
-    
-    buildTypes {
-        release {
-            minifyEnabled false
-        }
-    }
-    
+    buildTypes { release { minifyEnabled false } }
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
